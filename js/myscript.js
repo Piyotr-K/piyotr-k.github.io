@@ -18,8 +18,8 @@
     resizeCanvas();
 
     function drawStuff() {
-        var rng = Math.round(9 * Math.random());
-        var rng2 = Math.round(9 * Math.random());
+        var rng = Math.round(8 * Math.random());
+        var rng2 = Math.round(8 * Math.random());
         var names = ["Yoel", "James", "Vincent", "Rico", "Clement", "Jonathan", "Usman", "Justin", "Caden"];
         var msg = ["Kill yourself ", "Shut the fuck your bitch ass up ", "Fight me, ", "Lmao stfu ", "This site is under construction, gtfo ", "Uh oh here comes ", "Please don't cyberbully me ", "I'll give you five cents ", "Fuck you ", "I honestly fucking hate cs "];
         function cross(shift) {
