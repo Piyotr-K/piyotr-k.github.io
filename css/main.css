@@ -13,7 +13,6 @@ p {
     font-weight: 300;
     line-height: 1.7em;
     color: #999;
-    text-align: center;
 }
 
 #content {
@@ -27,13 +26,12 @@ p {
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    height: 1px;
     border: 0;
-    width: 75%;
+    display: block;
+    float: left;
+    width: 90%;
     border-top: 0.0625rem solid rgba(0, 0, 0, 0.1);
-}
-
-h2, h3 {
-    text-align: center;
 }
 
 a,
@@ -44,6 +42,29 @@ a:focus {
     transition: all 0.3s;
 }
 
+.social:hover {
+    box-shadow: 0px 0px 4px 7px rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+}
+
+.social-links {
+    margin-right: 1rem;
+}
+
+.social-links ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 2rem;
+}
+
+#profileImage {
+    width: 125px;
+    height: 125px;
+    display: block;
+    float: right;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
 
 /* Sidebar styling */
 
@@ -55,15 +76,29 @@ a:focus {
     z-index: 999;
     top: 0;
     left: 0;
-    background: #cdf3ff;
+    background: rgba(81, 255, 96, 0.25);
     color: rgb(75, 75, 75);
     transition: all 0.3s;
+    display: table;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1)
 }
 
-#sidebar .sidebar-header {
+#sidebar .sidebar-content {
     padding: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
 }
 
-#sidebar #sidebar-name {
-    
+#sidebar #sidebar-subtitle {
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+}
+
+#sidebar hr {
+    width: 55%;
+    display: block;
+    float: right;
+    margin-right: 18px;
 }
