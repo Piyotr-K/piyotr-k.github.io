@@ -1,9 +1,11 @@
 @import "https://fonts.googleapis.com/css?family=Roboto+Condensed";
 @import "https://fonts.googleapis.com/css?family=Roboto";
+
 /* 
     Main Content Styling
 */
 
+/* variables */
 :root {
     --scale-percent: 0.90;
     --rotate-degree: 25deg;
@@ -27,9 +29,18 @@ p {
     color: #666;
 }
 
+.icons {
+    width: 60px;
+}
+
+
 /*
     Projects Styling
 */
+
+.div_projs_header {
+    margin-top: 5%;
+}
 
 .div_proj_desc_left,
 .div_proj_desc_right {
@@ -111,6 +122,16 @@ p {
     transform: rotateY(calc(-1 * var(--rotate-degree))) scale3d(var(--scale-percent), var(--scale-percent), var(--scale-percent));
 }
 
+
+/*
+    Technologies Styling
+*/
+
+.div_tech_header {
+    margin-top: 10%;
+}
+
+
 /* 
     Right side content styling 
 */
@@ -166,7 +187,10 @@ a:focus {
     border-radius: 50%;
 }
 
-/* Sidebar styling */
+
+/* 
+    Sidebar styling
+*/
 
 #sidebar {
     min-width: 20vw;
