@@ -29,10 +29,6 @@ p {
     color: #666;
 }
 
-.icons {
-    width: 60px;
-}
-
 
 /*
     Projects Styling
@@ -129,6 +125,41 @@ p {
 
 .div_tech_header {
     margin-top: 10%;
+}
+
+.div_tech_content {
+    margin: 0px;
+    text-align: center;
+}
+
+.div_icons_row {
+    margin: 0px;
+}
+
+.div_icons {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.div_icons_header {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.icons {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: all 0.3s;
+}
+
+.icons:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
 }
 
 
