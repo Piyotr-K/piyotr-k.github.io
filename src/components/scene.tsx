@@ -24,7 +24,6 @@ class Scene extends React.Component {
 
     componentDidMount()
     {
-        const canvas = this.canvasRef!.current;
         this.viewGL = new ViewGL(this.canvasRef);
 
         window.addEventListener('mousemove', this.mouseMove);
