@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Scene from "../components/scene";
 function About()
 {
     return(
@@ -7,7 +8,7 @@ function About()
             <h2>
                 About ma
             </h2>
-            <canvas id="screen"></canvas>
+            <Scene></Scene>
         </main>
     );
 }
